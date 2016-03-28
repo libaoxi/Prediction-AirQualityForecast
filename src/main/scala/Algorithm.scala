@@ -35,6 +35,7 @@ class algo(val ap: AlgorithmParams)
       s"RDD[labeldPoints] in PreparedData cannot be empty." +
       " Please check if DataSource generates TrainingData" +
       " and Preprator generates PreparedData correctly.")
+    // require(true,data)
     val lin = new LinearRegressionWithSGD() 
 
     
