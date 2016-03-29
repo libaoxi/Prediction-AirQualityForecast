@@ -66,7 +66,7 @@ EmptyEvaluationInfo, Query, EmptyActualResult] {
         "attr25", 
         "attr26", 
         "attr27" 
-        // "attr28" 
+        "attr28" 
       )))(sc)
     // aggregateProperties() returns RDD pair of
     // entity ID and its aggregated properties
@@ -103,7 +103,7 @@ EmptyEvaluationInfo, Query, EmptyActualResult] {
               properties.get[Double]("attr25"),
               properties.get[Double]("attr26"),
               properties.get[Double]("attr27")
-              // properties.get[Double]("attr28")
+              properties.get[Double]("attr28")
             ))
         )
       } catch {
